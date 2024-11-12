@@ -7,7 +7,7 @@ CellDrugNet is a GNN-based framework that integrates multi-relational data—inc
 - [Methodology](#methodology)
 - [Installation and Environment Setup](#installation-and-environment-setup)
 - [Usage](#usage)
-- [Data Preparation](#data-preparation)
+- [Data Availabilty](#data-preparation)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -39,3 +39,31 @@ To set up the environment, follow these steps:
    conda activate CellDrugNet
 
 **Note:** Ensure Conda is installed and up to date.
+
+## Data Availability
+
+Due to storage limitations, the processed datasets and embeddings used for CellDrugNet are hosted externally. Below is a list of the data sources, processing steps, and instructions for accessing the final data.
+
+### Data Sources
+- **Gene Expression Data**: DepMap (https://depmap.org)
+- **Drug Molecular Structures**: PubChem (https://pubchem.ncbi.nlm.nih.gov)
+- **Protein-Protein Interactions (PPI)**: UniProt (https://www.uniprot.org)
+
+### Processed Datasets and Embeddings
+The final datasets and embeddings are available for download at:
+
+[Google Drive link to processed data]([https://drive.google.com/drive/folders/your_shared_folder_link](https://drive.google.com/drive/folders/156-HcL9vjeLbM8ZMqwmg0mGyAeo_qynl?usp=sharing))
+
+**Instructions**:
+1. Download the files from the link above.
+2. Place the datasets in the `data/` directory within the project, following this structure:
+
+    ```
+    ├── data/
+    │   ├── cell_lines.csv
+    │   ├── drugs.csv
+    │   ├── gene_embeddings.csv
+    │   └── other_data_files.csv
+    ```
+
+Please contact us if you encounter issues accessing the data.
