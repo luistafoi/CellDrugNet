@@ -7,7 +7,7 @@ CellDrugNet is a GNN-based framework that integrates multi-relational data—inc
 - [Methodology](#methodology)
 - [Installation and Environment Setup](#installation-and-environment-setup)
 - [Usage](#usage)
-- [Data Availabilty](#data-preparation)
+- [Data Availabilty](#data-availability)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
