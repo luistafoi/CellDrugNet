@@ -60,15 +60,15 @@ The final datasets and embeddings are available for download at:
 
     ```
     ├── data/
-    ├── Embeddings/
-    │      ├── gene_embeddings_512.csv
-    │      ├── drug_embeddings_chemberta_512.csv
-    │      └── cell_embeddings_512.csv
-    ├── Datasets/
-    │      ├── genetocell.csv
-    │      ├── drug_SMILES.csv
-    │      ├── gene_gene_association.csv
-    │      └── genetodrug.csv
+    |      ├── Embeddings/
+    |      |      ├── gene_embeddings_512.csv
+    |      |      ├── drug_embeddings_chemberta_512.csv
+    |      |      └── cell_embeddings_512.csv
+    |      ├── Datasets/
+    |             ├── genetocell.csv
+    |             ├── drug_SMILES.csv
+    |             ├── gene_gene_association.csv
+    |             └── genetodrug.csv
     ```
 
 Please contact us if you encounter issues accessing the data.
