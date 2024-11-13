@@ -6,6 +6,7 @@ CellDrugNet is a GNN-based framework that integrates multi-relational data—inc
 - [Introduction](#introduction)
 - [Methodology](#methodology)
 - [Installation and Environment Setup](#installation-and-environment-setup)
+- [Data](#data-availability)
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -19,25 +20,37 @@ CellDrugNet constructs a heterogeneous graph with nodes representing genes, drug
 
 ## Installation and Environment Setup
 
-To set up the environment, follow these steps:
+Follow these steps to set up the environment for the CellDrugNet project:
 
 1. **Clone the repository**:
+   
    ```bash
    git clone https://github.com/luistafoi/CellDrugNet.git
-
-2. **Navigate to the project directory:**:
+   ```
+2. *Navigate to the project directory:**:
+   
    ```bash
    cd CellDrugNet
+   ```
 
-3. **Create the Conda environment::**:
+3. **Create the Conda environment:**:
+   
    ```bash
    conda env create -f environment.yml
+   ```
 
-4. **Activate the Environment::**:
+4. **Activate the Environment:**:
+   
    ```bash
    conda activate CellDrugNet
+   ```
+5. **Download the Data**:
 
-**Note:** Ensure Conda is installed and up to date.
+- Refer to the [Data](#data-availability) section for instructions on downloading the necessary datasets.
+- After downloading, place the data files in the data/ folder as described.
+
+This setup will prepare the environment for exploring and contributing to the code. Future updates will include detailed instructions for training and evaluating the model.
+
 
 ## Data Availability
 
