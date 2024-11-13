@@ -64,7 +64,7 @@ Due to storage limitations, the processed datasets and embeddings used for CellD
 ### Processed Datasets and Embeddings
 The final datasets and embeddings are available for download at:
 
-[Google Drive link to processed data]([https://drive.google.com/drive/folders/156-HcL9vjeLbM8ZMqwmg0mGyAeo_qynl?usp=sharing])
+[Google Drive link to processed data](https://drive.google.com/drive/folders/156-HcL9vjeLbM8ZMqwmg0mGyAeo_qynl?usp=sharing)
 
 **Instructions**:
 1. Download the files from the link above.
