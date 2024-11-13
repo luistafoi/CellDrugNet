@@ -105,11 +105,11 @@ This project is currently under development, and training or evaluation scripts 
 
 Stay tuned for updates, as we will be adding training and evaluation commands as the code develops!
 
-### Results
+## Results
 
 CellDrugNet demonstrates significant improvements in predicting drug response. See the Results section in our paper for detailed performance metrics and ablation studies.
 
-### Contributing
+## Contributing
 
 We welcome contributions! Please see our CONTRIBUTING.md for details.
 
