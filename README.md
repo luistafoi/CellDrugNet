@@ -113,6 +113,6 @@ CellDrugNet demonstrates significant improvements in predicting drug response. S
 
 We welcome contributions! Please see our CONTRIBUTING.md for details.
 
-License
+## License
 
-This project is NOT YET licensed.
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
