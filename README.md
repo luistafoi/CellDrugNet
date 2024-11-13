@@ -7,7 +7,6 @@ CellDrugNet is a GNN-based framework that integrates multi-relational data—inc
 - [Methodology](#methodology)
 - [Installation and Environment Setup](#installation-and-environment-setup)
 - [Usage](#usage)
-- [Data Availabilty](#data-availability)
 - [Results](#results)
 - [Contributing](#contributing)
 - [License](#license)
@@ -72,3 +71,35 @@ The final datasets and embeddings are available for download at:
     ```
 
 Please contact us if you encounter issues accessing the data.
+
+## Usage
+
+This project is currently under development, and training or evaluation scripts are not fully functional. However, you can explore the code and set up the environment as follows:
+
+1. **Set Up the Environment**:
+   Follow the instructions in the [Environment Setup](#installation-and-environment-setup) section to create the necessary Conda environment.
+
+2. **Explore the Code**:
+   - The main code files are located in the `src/` directory. 
+   - `CellDrugNet_LM.py`: The primary Python file where the model architecture and functions are defined.
+   - `CellDrugNet_LM.ipynb`: A Jupyter notebook that can be used for interactive exploration and testing of the code.
+
+3. **Preparing for Model Training**:
+   Once the model is ready for training, we will provide a detailed guide here. 
+
+4. **Configuration**:
+   If you plan to modify configurations, place them in a `configs/` directory with a YAML file (e.g., `config.yaml`). Detailed configuration instructions will be added once training functionality is implemented.
+
+Stay tuned for updates, as we will be adding training and evaluation commands as the code develops!
+
+### Results
+
+CellDrugNet demonstrates significant improvements in predicting drug response. See the Results section in our paper for detailed performance metrics and ablation studies.
+
+### Contributing
+
+We welcome contributions! Please see our CONTRIBUTING.md for details.
+
+License
+
+This project is NOT YET licensed.
