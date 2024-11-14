@@ -76,7 +76,7 @@ The final datasets and embeddings are available for download at:
     |      |      ├── gene_embeddings_512.csv
     |      |      ├── drug_embeddings_chemberta_512.csv
     |      |      └── cell_embeddings_512.csv
-    |      ├── Datasets/
+    |      └── Datasets/
     |             ├── genetocell.csv
     |             ├── drug_SMILES.csv
     |             ├── gene_gene_association.csv
